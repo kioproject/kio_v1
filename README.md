@@ -20,3 +20,11 @@ GUI는 Eclipse 플러그인인 WindowBuilder를 이용해 SWING으로 구현하�
 1) GUI 
 키오스크의 UI 구성은 자바 SWING을 사용하여 구현하였습니다. 챗봇의 내용을 터치 환경과 음성인식 두 가지를 사용할 수 있도록 하였습니다. 
 
+![image](https://user-images.githubusercontent.com/58428675/117418140-0de39900-af56-11eb-91b6-85fc79cc7463.png)
+
+2) 챗봇 
+챗봇은 Google Dialogflow를 사용하여 구현하였습니다. 챗봇의 내용을 터치 환경과 음성인식 두 가지를 사용할 수 있도록 하였습니다.
+
+3) STT & TTS
+STT와 TTS는 구글의 API를 사용하여 구현하였습니다. STT는 신경망 모델을 적용하는 Google Speech-to-Text를 사용하여 오디오를 텍스트로 
+변환하였습니다.
