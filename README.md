@@ -17,18 +17,46 @@ GUI는 Eclipse 플러그인인 WindowBuilder를 이용해 SWING으로 구현하�
 # 제작 내용
 제작 내용은 1) GUI, 2) 챗봇 3) STT&TTS 4) DB로 구성됩니다.
 
-1) GUI 
+1)GUI 
+
 키오스크의 UI 구성은 자바 SWING을 사용하여 구현하였습니다. 챗봇의 내용을 터치 환경과 음성인식 두 가지를 사용할 수 있도록 하였습니다. 
 
 ![image](https://user-images.githubusercontent.com/58428675/117418140-0de39900-af56-11eb-91b6-85fc79cc7463.png)
 
-2) 챗봇 
+2)챗봇 
+
 챗봇은 Google Dialogflow를 사용하여 구현하였습니다. 챗봇의 내용을 터치 환경과 음성인식 두 가지를 사용할 수 있도록 하였습니다.
 
-3) STT & TTS
+3)STT & TTS
+
 STT와 TTS는 구글의 API를 사용하여 구현하였습니다. STT는 신경망 모델을 적용하는 Google Speech-to-Text를 사용하여 오디오를 텍스트로 변환하였습니다.
+
 ![image](https://user-images.githubusercontent.com/58428675/117418574-89dde100-af56-11eb-94c5-77619e86b230.png)
+
 챗봇의 출력 텍스트를 WAV 형식의 음원 파일로 저장하여 재생할 수 있도록 하였습니다.
 
-4) DB
+4)DB
+
 DB는 JDBC를 사용하여 MYSQL로 연동됩니다. 상품의 가격을 불러와 가격을 계산하고 주문 정보를 DB에 저장합니다. 
+
+![image](https://user-images.githubusercontent.com/58428675/117418873-e17c4c80-af56-11eb-96dc-4f91b5e5cdde.png)
+
+# References
+
+Cloud Text-to-Speech 문서 - Google Cloud
+https://cloud.google.com/text-to-speech/docs?hl=ko
+
+Cloud Speech-to-Text - 음성 인식 | Google Cloud
+https://cloud.google.com/speech-to-text/docs?hl=ko
+
+Google Cloud Dialogflow - 머신 러닝 - 문서
+https://cloud.google.com/dialogflow/docs?hl=ko
+
+Apache Maven Project - Settings Reference
+http://maven.apache.org/settings.html
+
+Google Cloud SDK 설치 | Cloud SDK 문서
+https://cloud.google.com/sdk/install?hl=ko
+
+Apache Commons
+https://commons.apache.org/
