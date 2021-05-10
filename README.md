@@ -2,7 +2,7 @@
 인공지능 챗봇 키오스크 swing 버전
 
 # Abstrct
-본 프로젝튼는 Google Dialogflow 및 Google Text-to-Speech(TTS), Speech-to-Text(STT)와 상호작용하여
+본 프로젝트는 Google Dialogflow 및 Google Text-to-Speech(TTS), Speech-to-Text(STT)와 상호작용하여
 음성인식 챗봇 키오스크를 구현하는 목적으로 합니다. 해당 API를 사용하기 위해 Google Cloud SDK와 Apache Maven, Apache Commons 라이브러리를
 사용하였으며 개발언어로는 JAVA, DB는 MYSQL을 사용하였습니다. 프로그램 작동의 구성은 사용자가 주문을 요구하면
 STT를 통해 입력받은 자연어를 처리하여 Text로 변환되고 챗봇 API인 Dialogflow로 전송되어 챗봇의 결과를 리턴받아 다시 TTS를 거쳐
